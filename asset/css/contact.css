@@ -1,0 +1,155 @@
+/*********************************************************************************/
+/*===========================   CONTACT PAGE    ============================*/
+
+.contact_location--section {
+    margin-top: 2rem;
+}
+
+.contact_banner {
+    background:
+        -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))),
+        url("../image/contactUs.jpg");
+    background:
+        linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../image/contactUs.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 66vh;
+    position: relative;
+}
+
+
+.contact__heading-main {
+    font-size: 5.5rem;
+    color: rgba(255, 255, 255, 0.733);
+    text-transform: uppercase;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+
+}
+
+.contact__details .details__content:last-child {
+    margin-top: 2rem;
+    border-top: 1px solid rgb(182, 182, 182);
+    padding-top: 2rem;
+}
+
+.contact__details {
+    font-family: 'Lato', sans-serif;
+}
+
+.contact__main-heading {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: rgb(12, 128, 236);
+}
+
+.details__content .location {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+    color: rgb(207, 0, 0);
+}
+
+.details__content {
+    text-align: justify;
+}
+
+.details__content p {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    line-height: 2.9rem;
+}
+
+.details__content p span {
+    margin-right: 1rem;
+}
+
+.details__content p span i {
+    color: rgb(37, 37, 37);
+    font-size: 1.5rem;
+}
+
+.contact--section {
+    padding: 5rem;
+    border-top: 1px solid rgb(185, 185, 185);
+
+}
+
+/*=====================>
+===== QE Section =====
+=======================*/
+
+.qr-div {
+    position: relative;
+}
+
+.qr-img {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+
+.qr-img img {
+    height: 80px;
+    width: 80px;
+}
+
+.contact__form .contact__queries {
+    color: grey;
+}
+
+.form__content {
+    margin-top: 3.5rem;
+}
+
+.contact__form-group .contact__form-control {
+    font-size: 1.7rem;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.contact__form-group .contact__form-control:focus {
+    border: 1.5px solid rgb(170, 2, 2);
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form__content .btn-send {
+    background-color: #fff;
+    border: 1px solid rgb(170, 2, 2);
+    font-size: 1.7rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.form__content .btn-send:hover {
+    background-color: rgb(170, 2, 2);
+    color: white;
+}
+
+
+
+iframe {
+    width: 100%;
+    height: 550px;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+    background-color: #ffffff;
+    /*border: 0;
+    */
+    -moz-transform: translateZ(0px);
+    -ms-transform: translateZ(0px);
+    -o-transform: translateZ(0px);
+}
+
+.contact__address--section {
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.google-map {
+    margin-top: 3rem;
+}

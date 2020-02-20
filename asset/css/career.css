@@ -1,0 +1,194 @@
+/*===================================*/
+/*========= Career Page============*/
+/*===================================*/
+
+
+
+
+.Career-banner--section {
+
+    background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../image/career.jpg");
+
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../image/career.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+/*
+.banner__content {
+    
+    font-size: 5.5rem;
+    color: rgba(255, 255, 255, 0.733);
+    text-transform: uppercase;
+    padding-top: 12rem;
+}
+*/
+
+
+.career--section {
+    margin-bottom: 10rem;
+}
+
+.content {
+    padding-bottom: 3rem;
+}
+
+.heading__primary {
+    font-size: 4.5rem;
+    color: rgb(0, 113, 219);
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 2rem;
+}
+
+
+.content__heading-main {
+    font-size: 2.5rem;
+    color: rgb(63, 63, 63);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.content__info {
+    font-size: 1.7rem;
+    color: rgb(54, 54, 54);
+    text-align: justify;
+}
+
+.career__current-heading {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.current__card-deck .current__card {
+    padding: 1.8rem 1.5rem;
+    border: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.current__card-deck .current__card:hover {
+    -webkit-box-shadow: -2px 3px 13px -3px #000000;
+    box-shadow: -2px 3px 13px -3px #000000;
+}
+
+.current__card-deck .current__image {
+    font-size: 5.5rem;
+    text-align: center;
+    color: rgba(0, 111, 202, 0.733);
+}
+
+.current__card-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.current__card-text {
+    text-align: justify;
+    font-size: 1.7rem;
+    padding-top: 1.2rem;
+}
+
+.product__view {
+
+    margin-bottom: 2rem;
+}
+
+/*
+.product__view a {
+    font-size: 1.7rem;
+    font-weight: 600;
+    border: 2px solid #0057e7;
+    padding: 1.2rem 2.5rem;
+    margin-top: 2rem;
+    font-family: 'Lato'sans-serif;
+
+}
+*/
+
+.product__view a {
+    position: absolute;
+    color: #1670f0;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    left: 50%;
+    margin-top: 5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+;
+
+.product__view a:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.05);
+
+}
+
+.product__view a span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(#0c002b), to(#1779ff));
+    background: linear-gradient(to right, #0c002b, #1779ff);
+}
+
+.product__view a span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0c002b), to(#1779ff));
+    background: linear-gradient(to bottom, #0c002b, #1779ff);
+}
+
+.product__view a span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(#0c002b), to(#1779ff));
+    background: linear-gradient(to left, #0c002b, #1779ff);
+}
+
+.product__view a span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(#0c002b), to(#1779ff));
+    background: linear-gradient(to top, #0c002b, #1779ff);
+}
+
+
+@media only screen and (max-width: 992px) {
+    .career__content-current .current__card-deck {
+        display: block;
+    }
+}
